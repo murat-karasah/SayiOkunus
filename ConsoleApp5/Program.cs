@@ -11,7 +11,7 @@ namespace ConsoleApp5
 
         static void Main(string[] args)
         {
-            Console.WriteLine("1-1000 arası bir sayı giriniz:");
+            Console.WriteLine("1-999 arası bir sayı giriniz:");
             sayi = Console.ReadLine();
             char[] dizi = sayi.ToCharArray();
             int uzunluk = dizi.Length;
@@ -47,6 +47,12 @@ namespace ConsoleApp5
                 if (sayi1 == '0')
                 {
                     Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi)); Main(null);
+                }
+                else if (sayi1 =='0' && sayi2=='0') 
+
+                {
+                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) ); Main(null);
+
                 }
                 else
                 {
