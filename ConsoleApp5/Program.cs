@@ -46,14 +46,15 @@ namespace ConsoleApp5
                 yuzler(yuzsayi);
                 if (sayi1 == '0')
                 {
+                    if (sayi1 == '0' && sayi2 == '0')
+
+                    {
+                        Console.WriteLine("Okunuşu :" + yuzler(yuzsayi)); Main(null);
+
+                    }
                     Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi)); Main(null);
                 }
-                else if (sayi1 =='0' && sayi2=='0') 
-
-                {
-                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) ); Main(null);
-
-                }
+                 
                 else
                 {
                     Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi) + birler(bir)); Main(null);
