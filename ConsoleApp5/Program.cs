@@ -36,7 +36,6 @@ namespace ConsoleApp5
                     Console.WriteLine("Okunuşu :" + onlar(onsayi) + birler(bir));
                     Main(null);
                 }
-
             }
             if (uzunluk==3)
             {
@@ -57,66 +56,22 @@ namespace ConsoleApp5
                     Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi) + birler(bir)); Main(null);
 
                 }
-
-
-
             }
-            //   Console.WriteLine(dizi[1]);
-
-
-
         }
 
         private static string yuzler(string yuzsayi)
         {
-
             switch (sayi3)
             {
-                case '1':
-                    yuzsayi = "yüz";
-                    break;
-
-                case '2':
-                    yuzsayi = "ikiyüz";
-
-                    break;
-
-                case '3':
-                    yuzsayi = "üçyüz";
-
-                    break;
-
-                case '4':
-                    yuzsayi = "dörtyüz";
-
-                    break;
-
-                case '5':
-                    yuzsayi = "beşyüz";
-
-                    break;
-
-                case '6':
-                    yuzsayi = "altıyüz";
-
-                    break;
-
-                case '7':
-                    yuzsayi = "yediyüz";
-
-                    break;
-
-                case '8':
-                    yuzsayi = "sekizyüz";
-
-                    break;
-
-                case '9':
-                    yuzsayi = "dokuzyüz";
-
-                    break;
-
-               
+                case '1': yuzsayi = "yüz";      break;
+                case '2': yuzsayi = "ikiyüz";   break;
+                case '3': yuzsayi = "üçyüz";    break;
+                case '4': yuzsayi = "dörtyüz";  break;
+                case '5': yuzsayi = "beşyüz";   break;
+                case '6': yuzsayi = "altıyüz";  break;
+                case '7': yuzsayi = "yediyüz";  break;
+                case '8': yuzsayi = "sekizyüz"; break;
+                case '9': yuzsayi = "dokuzyüz"; break;
                 default:
                     break;
             }
