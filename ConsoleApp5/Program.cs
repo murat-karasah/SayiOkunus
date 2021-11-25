@@ -20,6 +20,7 @@ namespace ConsoleApp5
                  sayi1 = dizi[0];
 
                 Console.WriteLine("Okunuşu : " + birler(bir));
+                Main(null);
             }
             if (uzunluk==2)
             {
@@ -28,12 +29,12 @@ namespace ConsoleApp5
                 if (sayi1=='0')
                 {
                     Console.WriteLine("Okunuşu :" + onlar(onsayi) );
-
+                    Main(null);
                 }
                 else
                 {
                     Console.WriteLine("Okunuşu :" + onlar(onsayi) + birler(bir));
-
+                    Main(null);
                 }
 
             }
@@ -45,11 +46,11 @@ namespace ConsoleApp5
                 yuzler(yuzsayi);
                 if (sayi1 == '0')
                 {
-                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi));
+                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi)); Main(null);
                 }
                 else
                 {
-                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi) + birler(bir));
+                    Console.WriteLine("Okunuşu :" + yuzler(yuzsayi) + onlar(onsayi) + birler(bir)); Main(null);
 
                 }
 
